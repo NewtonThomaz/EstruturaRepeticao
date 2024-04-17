@@ -10,9 +10,9 @@ public class QuartaRepeticao {
 			System.out.println("informe os números");
 			n = ler.nextInt();
 			if (n%2 == 0) {
-				p += n;
+				p += 1;
 			}else {
-				im += n;
+				im += 1;
 			}
 		}
 		System.out.println("A soma de todos os números pares é " + p + " e a soma de todos os números impares é " + im);
